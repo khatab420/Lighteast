@@ -12,4 +12,9 @@ public class HelloController {
     public String helloController(){
         return "Hello from Hello Controller";
     }
+
+    @GetMapping("/second")
+    public String second(){
+        return "Hello from second controller";
+    }
 }
